@@ -12,7 +12,7 @@
 //   };
 // };
 
-export default async function Index({ searchParams }: Props) {
+export default async function Index() {
   // const topicSlug = "street-photography";
   // const orderBy = searchParams.orderBy || OrderBy.POPULAR;
   // const page = parseInt(searchParams.page || "1");
