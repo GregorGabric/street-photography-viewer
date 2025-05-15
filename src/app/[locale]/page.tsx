@@ -28,7 +28,7 @@ export default async function Index({ searchParams }: Props) {
   //   }),
   // ]);
 
-  return <div>Hello</div>;
+  return <div>Hello 1</div>;
 
   // return (
   //   <PhotoViewer
