@@ -1,11 +1,11 @@
 name: Auto-merge l10n pull requests
 
 on:
-  pull_request:
-    types: [opened, synchronize]
   repository_dispatch:
     types:
       - "vercel.deployment.success"
+  pull_request:
+    types: [opened, synchronize]
 
 permissions:
   contents: write
